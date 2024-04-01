@@ -12,7 +12,7 @@ export default function Home() {
     return(
         <>
         <NavBar></NavBar>
-        <Gallery title="??" location="A Coruña, Galicia">
+        <Gallery title="January 28, 2023" location="A Coruña, Galicia">
             <ReactImageGallery items={coru} showPlayButton={false} showFullscreenButton={false} showNav={false}></ReactImageGallery>
         </Gallery>
         </>
