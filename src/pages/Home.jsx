@@ -28,7 +28,7 @@ export default function Home() {
                 talking to stray cats, reading an interesting book or maybe playing videogames from time to time.
             </p>
             <p>
-                you can <a href="mailto:agustindaasilvarodriguez@gmail.com">contact me here</a>, I genuinely hope we can get along together :) !
+                you can <a href="mailto:contact@agustindasilva.me">contact me here</a>, I genuinely hope we can get along together :) !
             </p>
             </Article>
             <hr />
