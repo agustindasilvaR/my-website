@@ -26,7 +26,7 @@ export default function NavBar() {
             <Menu className="dropdown-menu dark-theme">
                 <MenuItem text="experience" href='/experience'></MenuItem>
                 <MenuItem text="ideas" href='/ideas'></MenuItem>
-                <MenuItem text="resume" href='/src/assets/files/cv.pdf' target='_blank'></MenuItem>
+                <MenuItem text="resume" href='assets/files/cv.pdf' target='_blank'></MenuItem>
                 <MenuItem text="lomography" href='/lomography'></MenuItem>
             </Menu>
         } placement="bottom">
