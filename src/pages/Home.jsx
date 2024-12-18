@@ -17,18 +17,24 @@ export default function Home() {
             <Article title="" id="about">
             <h2>hi! / ¡hola! / こんにちは! </h2>
             <p>
-                the name is Agustín, nice to meet you! 
+                i’m Agustín, a web developer based in Spain who loves blending creativity and technology to craft meaningful digital experiences on the web.            
             </p>
             <p>
-                I am a full-stack developer currently based in Spain with a
-                gnawing love for learning, seeking new challenges and delivering nurturing digital experiences through coding.
+            when i’m not coding, you’ll often find me:
+            <ul>
+                <li><a href="/lomography">capturing the world</a> through my camera</li>
+                <li>reading (essays or manga)</li>
+                <li>watching cat videos (a universal joy)</li>
+                <li>hiking in nature</li>
+                <li>at the cinema</li>
+                <li>enjoying a gaming session</li>
+            </ul>
             </p>
             <p>
-                whenever I am far from an IDE you can find me with my camera taking lots of <a href="/lomography">pictures</a> outside, randomly
-                talking to stray cats, reading an interesting book or maybe playing videogames from time to time.
+                feel free to reach out, i'm always open to connect with like-minded individuals and maybe even creating something cool together.
             </p>
             <p>
-                you can <a href="mailto:contact@agustindasilva.me">contact me here</a>, I genuinely hope we can get along together :) !
+                you can <a href="mailto:agustindasilvar.dev@gmail.com">contact me here</a>, i genuinely hope we can get along. :)
             </p>
             </Article>
             <hr />
