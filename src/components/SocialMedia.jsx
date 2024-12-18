@@ -12,7 +12,7 @@ export default function SocialMedia() {
         ·
         <a href="https://twitter.com/aguchinn" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /> twitter  </a>
         ·
-        <a href="mailto:contact@agustindasilva.me" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={ faEnvelope } /> contact </a>
+        <a href="mailto:agustindasilvar.dev@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={ faEnvelope } /> contact </a>
     </div>
 
     )

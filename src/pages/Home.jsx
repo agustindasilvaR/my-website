@@ -27,7 +27,6 @@ export default function Home() {
                 <li>watching cat videos (a universal joy)</li>
                 <li>hiking in nature</li>
                 <li>at the cinema</li>
-                <li>enjoying a gaming session</li>
             </ul>
             </p>
             <p>
