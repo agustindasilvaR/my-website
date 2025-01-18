@@ -2,7 +2,7 @@ import NavBar from "../components/NavBar"
 import useDocumentTitle from "../utils/TabTitle"
 import ReactImageGallery from "react-image-gallery"
 import Gallery from "../components/Gallery"
-import { coru } from "../js/images"
+import { coru, roma2024 } from "../js/images"
 import "react-image-gallery/styles/css/image-gallery.css";
 
 
@@ -10,11 +10,14 @@ import "react-image-gallery/styles/css/image-gallery.css";
 export default function Home() {
     useDocumentTitle('agustín - lomography')
     return(
-        <>
-        <NavBar></NavBar>
-        <Gallery title="January 28, 2023" location="A Coruña, Galicia">
+        <div style={{paddingBottom: "10px"}}>
+        <NavBar/>
+        <Gallery title="November, 2024" location="Roma, Italia">
+            <ReactImageGallery items={roma2024} showPlayButton={false} showFullscreenButton={false} showNav={false}></ReactImageGallery>
+        </Gallery>
+        <Gallery title="January, 2023" location="A Coruña, Spain">
             <ReactImageGallery items={coru} showPlayButton={false} showFullscreenButton={false} showNav={false}></ReactImageGallery>
         </Gallery>
-        </>
+        </div>
     )
 }
