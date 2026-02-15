@@ -5,7 +5,6 @@ export default function GridCard(props) {
         <div className='grid-card'>
             <h4>{props.title}</h4>
             <p id="date">{props.date}</p>
-            <p id='caption'>{props.children}</p>
             <Tooltip  place='bottom'>
                 {props.tooltip}
             </Tooltip>
