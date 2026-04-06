@@ -189,6 +189,29 @@ hr {
   color: rgb(115, 115, 115);
 }
 
+.calendar-wrapper {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card {
+  width: fit-content;
+  left: 0;
+  right: 0;
+background-color: #242424;
+    padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 10px;
+  color: rgb(115, 115, 115);
+  transition: 0.32s;
+  animation: fade-in 1s;
+}
+
 .grid-card p {
   color: rgb(115, 115, 115);
   transition: 0.3s
@@ -259,7 +282,13 @@ hr {
   animation: fade-in 1s;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+
+  .card {
+
+    display: none;
+
+  }
 
 
   .article {
