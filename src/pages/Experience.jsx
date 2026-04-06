@@ -3,6 +3,7 @@ import GridCard from "../components/GridCard"
 import useDocumentTitle from "../utils/TabTitle"
 import Article from "../components/Article"
 import { Tooltip } from "react-tooltip"
+import { GitHubCalendar } from 'react-github-calendar';
 import Empty from "../components/Empty"
 
 export default function Experience() {
@@ -10,6 +11,11 @@ export default function Experience() {
     return(
     <>
         <NavBar></NavBar>
+        <div className="calendar-wrapper">
+            <div className="card">
+                <GitHubCalendar username="agustindasilvaR"></GitHubCalendar>
+            </div>
+        </div>
         <Article title="projects">
             <p>these are some of the projects I have crafted so far during my journey:</p>
         </Article>
